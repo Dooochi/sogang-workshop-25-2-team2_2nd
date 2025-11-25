@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 25e3f2df9e9c5a6468d560d49d1356a6
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_LOD0
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_LOD1
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_LOD2
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_Reference
+      parentName: Idle(Clone)
+      position: {x: 0.061464336, y: 0.0105067445, z: 0.06232856}
+      rotation: {x: -0.031311907, y: 0.04654059, z: 0.028937062, w: 0.9980061}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_Hips
+      parentName: genSuit_Reference
+      position: {x: -0, y: 1.06722, z: 0}
+      rotation: {x: 0.03131191, y: -0.046540592, z: -0.02893706, w: 0.9980061}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_LeftUpLeg
+      parentName: genSuit_Hips
+      position: {x: -0.09508931, y: -0.06691002, z: 0}
+      rotation: {x: -0.0019160137, y: 0.00014983863, z: -0.0789864, w: 0.99687386}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: genSuit_LeftLeg
+      parentName: genSuit_LeftUpLeg
+      position: {x: -0.000000048851845, y: -0.43767083, z: -0.03754128}
+      rotation: {x: 0.0036559245, y: 0.0000037548161, z: -0.000046385736, w: 0.9999933}
+      scale: {x: 0.99999964, y: 1, z: 0.99999976}
+    - name: genSuit_LeftFoot
+      parentName: genSuit_LeftLeg
+      position: {x: 0.000000024705018, y: -0.48529634, z: -0.038833342}
+      rotation: {x: 0.0068986444, y: -0.108561836, z: 0.078746274, w: 0.9909419}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999994}
+    - name: genSuit_LeftToeBase
+      parentName: genSuit_LeftFoot
+      position: {x: -0.000000095722356, y: -0.08837954, z: 0.12286915}
+      rotation: {x: -0, y: -0, z: -0.0000000028521754, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: genSuit_Spine
+      parentName: genSuit_Hips
+      position: {x: -0, y: 0.12722893, z: 0}
+      rotation: {x: -0.0000000037252903, y: 0.000000011175871, z: -0.0000000031432137, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: genSuit_Spine1
+      parentName: genSuit_Spine
+      position: {x: -0, y: 0.1499041, z: 0}
+      rotation: {x: -0, y: -0.0000000037252903, z: 0.0000000019790605, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: genSuit_LeftShoulder
+      parentName: genSuit_Spine1
+      position: {x: -0.07470541, y: 0.21972503, z: -1.7763568e-17}
+      rotation: {x: -0.0000008884094, y: -0.07006978, z: 0.0000000011330855, w: 0.99754214}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: genSuit_LeftArm
+      parentName: genSuit_LeftShoulder
+      position: {x: -0.14, y: 0.0000015258788, z: -0.000000007152557}
+      rotation: {x: -0.027687993, y: 0.06725971, z: 0.032864444, w: 0.9968096}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: genSuit_LeftForeArm
+      parentName: genSuit_LeftArm
+      position: {x: -0.24403243, y: 8.5265126e-16, z: 0.0000000071651622}
+      rotation: {x: -0.0054225493, y: 0.03225375, z: -0.01045954, w: 0.99941033}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: genSuit_LeftHand
+      parentName: genSuit_LeftForeArm
+      position: {x: -0.2976735, y: 0.010018299, z: 0.004629003}
+      rotation: {x: -0.000000007308697, y: -0.000000029802319, z: -0.000000001520176, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: genSuit_LeftHandThumb1
+      parentName: genSuit_LeftHand
+      position: {x: -0.023827009, y: -0.0150695, z: 0.041347306}
+      rotation: {x: -0.3289238, y: 0.46710733, z: 0.19042927, w: 0.7983461}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999997}
+    - name: genSuit_LeftHandThumb2
+      parentName: genSuit_LeftHandThumb1
+      position: {x: -0.03700056, y: 0.001101899, z: -0.011224125}
+      rotation: {x: 0.03084987, y: 0.36765304, z: -0.083905704, w: 0.92565626}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000007}
+    - name: genSuit_LeftHandThumb3
+      parentName: genSuit_LeftHandThumb2
+      position: {x: -0.013954623, y: -0.005285903, z: -0.028382678}
+      rotation: {x: -0, y: -0, z: 4.656613e-10, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: genSuit_LeftHandIndex1
+      parentName: genSuit_LeftHand
+      position: {x: -0.08775511, y: 0.004067367, z: 0.04862261}
+      rotation: {x: -0.002014311, y: -0.024492279, z: -0.06703506, w: 0.99744797}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: genSuit_LeftHandIndex2
+      parentName: genSuit_LeftHandIndex1
+      position: {x: -0.050317734, y: -0.011553696, z: 0.009377705}
+      rotation: {x: -0.0148832435, y: -0.020038031, z: -0.10453499, w: 0.994208}
+      scale: {x: 1, y: 1.0000004, z: 0.99999934}
+    - name: genSuit_LeftHandIndex3
+      parentName: genSuit_LeftHandIndex2
+      position: {x: -0.024345495, y: -0.013854527, z: 0.006121276}
+      rotation: {x: -0.000008429733, y: 0.00013793736, z: -0.06101263, w: 0.998137}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.9999999}
+    - name: genSuit_LeftHandMiddle1
+      parentName: genSuit_LeftHand
+      position: {x: -0.08461497, y: 0.0028195167, z: 0.00273062}
+      rotation: {x: -0.0033481235, y: -0.0035137564, z: -0.13837138, w: 0.9903686}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: genSuit_LeftHandMiddle2
+      parentName: genSuit_LeftHandMiddle1
+      position: {x: -0.056065645, y: -0.023763325, z: 0.00256821}
+      rotation: {x: -0.0012441364, y: -0.018807009, z: -0.20118013, w: 0.9793729}
+      scale: {x: 1.0000002, y: 1.0000008, z: 0.9999998}
+    - name: genSuit_LeftHandMiddle3
+      parentName: genSuit_LeftHandMiddle2
+      position: {x: -0.021338427, y: -0.025337765, z: 0.002500625}
+      rotation: {x: -0, y: -0, z: 8.967726e-17, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: genSuit_AttachHandLeft
+      parentName: genSuit_LeftHand
+      position: {x: -0.08576659, y: -0.038132094, z: 0.021670282}
+      rotation: {x: -0.000000023793286, y: -0.70710677, z: -0.0000000047300954, w: 0.7071067}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: genSuit_Neck
+      parentName: genSuit_Spine1
+      position: {x: -3.9569024e-33, y: 0.28632966, z: 0.017346201}
+      rotation: {x: 0.000000018626451, y: -0, z: -0.0000000018626449, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: genSuit_Head
+      parentName: genSuit_Neck
+      position: {x: 2.5066302e-33, y: 0.1237207, z: 0.039820645}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: genSuit_RightShoulder
+      parentName: genSuit_Spine1
+      position: {x: 0.0747054, y: 0.21972698, z: -1.77636e-17}
+      rotation: {x: 0.99754214, y: -0.0000000074252497, z: -0.07006977, w: 0.0000008890382}
+      scale: {x: 1, y: 1.0000007, z: 1.0000004}
+    - name: genSuit_RightArm
+      parentName: genSuit_RightShoulder
+      position: {x: 0.14000033, y: -0.000000017761618, z: -0.00000005861933}
+      rotation: {x: -0.027688254, y: 0.067259975, z: 0.03286078, w: 0.9968098}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.000001}
+    - name: genSuit_RightForeArm
+      parentName: genSuit_RightArm
+      position: {x: 0.24403265, y: 0.0000018678392, z: 0.00000017025293}
+      rotation: {x: -0.005422653, y: 0.032252397, z: -0.010453242, w: 0.9994104}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: genSuit_RightHand
+      parentName: genSuit_RightForeArm
+      position: {x: 0.29767248, y: -0.010021094, z: -0.0046294914}
+      rotation: {x: 0.0000000064530368, y: 0.000000014901159, z: 9.26837e-10, w: 1}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.9999997}
+    - name: genSuit_RightHandThumb1
+      parentName: genSuit_RightHand
+      position: {x: 0.023825781, y: 0.015066906, z: -0.041347783}
+      rotation: {x: -0.3289301, y: 0.46715495, z: 0.19037966, w: 0.7983275}
+      scale: {x: 1.0000005, y: 1.0000015, z: 1.0000001}
+    - name: genSuit_RightHandThumb2
+      parentName: genSuit_RightHandThumb1
+      position: {x: 0.03700311, y: -0.0011000364, z: 0.01123257}
+      rotation: {x: 0.030836891, y: 0.3675042, z: -0.083874844, w: 0.92571855}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000007}
+    - name: genSuit_RightHandThumb3
+      parentName: genSuit_RightHandThumb2
+      position: {x: 0.013955377, y: 0.005284689, z: 0.028374871}
+      rotation: {x: 0.0000000027939675, y: -0.00000008940696, z: -0.00000007473863, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: genSuit_RightHandIndex1
+      parentName: genSuit_RightHand
+      position: {x: 0.087757625, y: -0.004063009, z: -0.048621353}
+      rotation: {x: -0.0020104027, y: -0.02449386, z: -0.06697962, w: 0.9974516}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+    - name: genSuit_RightHandIndex2
+      parentName: genSuit_RightHandIndex1
+      position: {x: 0.050314263, y: 0.0115482705, z: -0.009379323}
+      rotation: {x: -0.014917214, y: -0.02000463, z: -0.10463938, w: 0.99419713}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: genSuit_RightHandIndex3
+      parentName: genSuit_RightHandIndex2
+      position: {x: 0.024349079, y: 0.0138601065, z: -0.0061202366}
+      rotation: {x: -0.000008446682, y: 0.00013793702, z: -0.061012585, w: 0.99813706}
+      scale: {x: 1.0000001, y: 1.0000017, z: 1.0000015}
+    - name: genSuit_RightHandMiddle1
+      parentName: genSuit_RightHand
+      position: {x: 0.084617205, y: -0.0028148724, z: -0.0027297048}
+      rotation: {x: -0.0033454027, y: -0.0035183446, z: -0.13832887, w: 0.9903745}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: genSuit_RightHandMiddle2
+      parentName: genSuit_RightHandMiddle1
+      position: {x: 0.056064684, y: 0.023761375, z: -0.0025686102}
+      rotation: {x: -0.0012423545, y: -0.018814944, z: -0.20116763, w: 0.9793753}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: genSuit_RightHandMiddle3
+      parentName: genSuit_RightHandMiddle2
+      position: {x: 0.021336807, y: 0.025333405, z: -0.0025011736}
+      rotation: {x: -0, y: -0, z: -5.296504e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000008}
+    - name: genSuit_AttachHandRight
+      parentName: genSuit_RightHand
+      position: {x: 0.08576793, y: 0.038135443, z: -0.021669757}
+      rotation: {x: -0.000000046336588, y: -0.7071068, z: -0.000000011827574, w: 0.7071068}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000007}
+    - name: genSuit_RightUpLeg
+      parentName: genSuit_Hips
+      position: {x: 0.0950893, y: -0.06691, z: 0}
+      rotation: {x: 0.99687386, y: 0.07898639, z: 0.00014983442, w: 0.0019160095}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: genSuit_RightLeg
+      parentName: genSuit_RightUpLeg
+      position: {x: 0.00000042765998, y: 0.4376709, z: 0.037541263}
+      rotation: {x: 0.0036559217, y: 0.0000037930436, z: -0.000046394758, w: 0.9999933}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.0000007}
+    - name: genSuit_RightFoot
+      parentName: genSuit_RightLeg
+      position: {x: -0.00000015580196, y: 0.48529634, z: 0.038833354}
+      rotation: {x: 0.006898631, y: -0.10856184, z: 0.07874627, w: 0.99094194}
+      scale: {x: 0.9999999, y: 1.0000026, z: 1.0000018}
+    - name: genSuit_RightToeBase
+      parentName: genSuit_RightFoot
+      position: {x: -0.0000005664664, y: 0.088379525, z: -0.12286899}
+      rotation: {x: 0.0000000018626449, y: -0, z: 0.000000010652001, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
